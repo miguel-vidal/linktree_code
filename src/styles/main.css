@@ -1,0 +1,85 @@
+body{
+    background-color:#1A1A1D;
+}
+
+.card{
+    box-sizing: border-box;
+    width:30%;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
+/*top*/
+.top{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.image_profile{
+    width:10em;
+    height: 10em;
+    border-radius: 10em 10em ;
+    margin: 0 auto;
+}
+
+.image_profile>img{
+    width:10em;
+    height: 10em;
+    border-radius: 10em 10em ;
+}
+
+.top>h1{
+    font-size: 2em;
+}
+
+.top>h2{
+    color:gray;
+}
+
+
+/*bottom*/
+
+.bottom{
+    margin-top: 5%;
+}
+
+.social-media{
+    width:90%;
+    height: 2.8em;
+    margin: 2% auto;
+}
+
+.social-media:hover{
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+    cursor:pointer;
+}
+
+.social-media>img{
+    width: 2.3em;
+    margin: 1% 0 0 2%;
+}
+
+.social-media>a{
+    font-size: 1.2em;
+    margin-left:27%;
+    text-decoration: none;
+    color:#FFF;
+}
+
+.FaceBook{
+    background-color:#3933ff;
+}
+
+.Linkedin{
+    background-color: #1d0afd;
+}
+
+.Twitter{
+    background-color: #33c4ff;
+}
+
+.EDteam{
+    background-color:#0593e5;
+}
